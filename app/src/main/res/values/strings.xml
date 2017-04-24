@@ -1,6 +1,4 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" translatable="false">MiXiT 2017</string>
-
     <string name="title_section_home" translatable="false">MiXiT 2017</string>
     <string name="title_section_planning" translatable="false">Planning</string>
     <string name="title_section_fildeleau">Le fil de l\'eau</string>
@@ -48,7 +46,7 @@
     <string name="mixit_url" translatable="false">https://mixitconf.org/come</string>
     <string name="hastag" translatable="false">#mixit17</string>
     <!-- Compteur -->
-    <string name="whats_on_countdown_title_0">Plus que </string>
+    <string name="whats_on_countdown_title_0">Plus que %s</string>
     <plurals name="whats_on_countdown_title">
         <item quantity="one"><xliff:g id="number_of_days">%1$s</xliff:g> jours, <xliff:g id="remaining_time">%2$s</xliff:g>\navant de nous retrouver à MiXiT</item>
         <item quantity="other"><xliff:g id="number_of_days">%1$s</xliff:g> jours, <xliff:g id="remaining_time">%2$s</xliff:g>\navant de nous retrouver à MiXiT</item>
@@ -178,5 +176,6 @@
         même si la fenêtre d\'avancement est masquée</string>
     <string name="dial_message_membre">Le chargement récupère les données et les images et peut être plus ou moins long. Une fois lancée la tâche s\'exécutera jusqu\'à la fin
         même si la fenêtre d\'avancement est masquée</string>
+    <string name="option_next_talk">Prochain talk</string>
 
 </resources>
